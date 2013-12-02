@@ -1,0 +1,11 @@
+html {font-family: Sans-Serif;}
+
+body {background-image: url(tree_bark.png); background-color:#E9FFE1; font-family:Sans-Serif}
+
+h1, h2, h3 {color:green; font-family: Serif}
+
+h2 {border-bottom:3px inset #697F61}
+
+blockquote {border:2px solid #117F1A; background:linear-gradient(to bottom, #D2FFC1, #89FF7D); padding: 1em 1.5em}
+
+img {float:right; margin-left:1em; border:6.5px solid #117F1A; border-radius:15px; box-shadow: 7px 7px 5px 7px #89FF7D}

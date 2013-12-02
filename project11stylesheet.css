@@ -1,0 +1,59 @@
+.photo1 {
+	margin:2em;
+	transition: all 1s ease;
+	border: 10px groove #7983FF;
+}
+
+.photo1:hover {
+	-webkit-transform: rotate(180deg);
+}
+
+.photo2 {
+	margin:2em;
+	transition: all 1s ease;
+	border: 10px groove #7983FF;
+}
+
+.photo2:hover {
+	-webkit-transform: scale(1.5);
+}
+
+.photo3 {
+	margin:2em;
+	transition: all 1s ease;
+	border: 10px groove #7983FF;
+}
+
+.photo3:hover {
+	-webkit-transform: skew(20deg);
+}
+
+.box1 {
+	display:inline-block;
+	margin:2em;
+	width:300px;
+	height:300px;
+	background-color:#E89200;
+	box-shadow: 10px 10px #000000;
+	transition:all 1s ease-in-out;
+}
+
+.box1:hover {
+	background-color:#000000;
+	box-shadow: 10px 10px #E89200;
+}
+
+.box2 {
+	display:inline-block;
+	margin:2em;
+	width:300px;
+	height:300px;
+	background-color:red;
+	transition:all 1s ease-in-out;
+}
+
+.box2:hover {
+	background-color:green;
+	-webkit-transform: rotate(25deg) scale(1.05);
+	-webkit-transform-origin:top right;
+}

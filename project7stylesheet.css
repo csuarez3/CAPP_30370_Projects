@@ -1,0 +1,45 @@
+@viewport {width:device-width; zoom:1;}
+
+* {-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+
+html {font-family: Verdana, Geneva, sans-serif;}
+
+body {background-image: url(geometry.png); background-color:#FFE96C;}
+
+body {margin:1em;}
+img {max-width:100%;}
+
+nav {}
+  nav ul {margin:0; padding:0; list-style:none;}
+  nav a {display:block; padding:1em; border:2px solid #91285B;}
+
+@media screen, projection {
+  img {border:6.5px groove #91285B; border-radius:15px; box-shadow: 3px 3px #FF5FAC;text-align:center; background-color:#FFF9F8; margin: 10px;}
+}
+
+
+@media only screen and (min-width:400px) {
+	nav {
+	display: inline-block; width: 20%; float: left;
+	margin: 0 6px 6px 0; position: fixed
+	}
+	main{
+	float:right; width:75%
+	}
+	img {
+	border:6.5px groove #91285B; border-radius:15px; box-shadow: 3px 3px #FF5FAC;text-align:center; background-color:#FFF9F8; margin: 10px;
+	}
+}
+
+@media only screen and (min-width:800px) {
+	img {
+	float:right; border:6.5px groove #91285B; border-radius:15px; box-shadow: 3px 3px #FF5FAC;text-align:center; background-color:#FFF9F8; margin: 10px; max-width: 40%
+	}
+	nav{
+		position: fixed
+	}
+}
+
+h1, h2, h3 {color:#078185;}
+
+h2 {border-bottom:5px groove #14C6CC}

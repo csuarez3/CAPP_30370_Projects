@@ -1,0 +1,15 @@
+html {color:#66757F; font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;;}
+
+body {background-color:#D4E9FF}
+
+h1 {color:#333A40;text-align:center;}
+
+h2 {color:#5B717F;text-align:center;border-bottom:7px groove #7CC2FF}
+
+h3 {color:#5D92BF}
+
+blockquote {border:3px inset #82A5FF; background-color:B7D3E5}
+
+td {padding:2px;}
+
+table, td, th {border:2px solid #82A5FF;}
